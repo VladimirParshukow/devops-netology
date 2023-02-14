@@ -1,11 +1,17 @@
 # devops-netology
 
 Будут проигнорированы:
+
 В папке .terraform файлы и папки, но не файлы и папки в подпапках
+
 Файлы и папки заканчивающиеся на .tfstate и содержащие .tfstate.
+
 Файлы и папки crash.log и начинающиеся на crash. , а заканчивающиеся на .log
+
 Файлы и папки заканчивающиеся на .tfvars и .tfvars.json
+
 Файлы и папки override.tf и override.tf.json , а также заканчивающиеся на _override.tf и _override.tf.json
+
 Файлы и папки .terraformrc и terraform.rc
 
 ## Getting started
